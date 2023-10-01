@@ -46,8 +46,9 @@ public class Arraylist {
         // here we are add linked list into arraylist ;
         // arr.addAll(linked);
 
-
-
+        // arr.remove(0); // remove()  will remove the element from list desired index;
+        
+        System.out.println(arr.getClass()); // it will give the class name of the type of the list we are using
 
         for(String i : arr){
             System.out.println(i);

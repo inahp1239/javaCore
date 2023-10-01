@@ -13,7 +13,7 @@ class Iteration {
         arr.add(40);
 
         // An Iterator is an object that can be used to 
-        // loop through collections, like ArrayList and HashSet  ;
+        // loop through collections, like ArrayList , LinkedList and HashSet  ;
 
 
         // Iterator<Integer> i = arr.iterator();

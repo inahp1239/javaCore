@@ -9,6 +9,9 @@ public class Comparators {
     public static void main(String[] args){
         Comparator<Integer> com = new Comparator<>(){
 
+            // comparator is capable of handling more than one entity ;
+            // this is because we use when we need to comparator rather than comparable interface;
+
             // this override method will check the last digit is > or < between two numbers;
             @Override 
             public int compare(Integer i , Integer j){

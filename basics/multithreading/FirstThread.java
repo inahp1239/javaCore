@@ -52,7 +52,7 @@ public class FirstThread {
 
 
         // before join method all the threads works simultanously together ;
-        // after join method main method is hold back until the all other threads are to be done with their exection ;
+        // after join method main thread is hold back until the all other threads are to be done with their exection ;
 
     }
 }

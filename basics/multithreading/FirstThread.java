@@ -1,4 +1,4 @@
-package somemorebasics.multithreading;
+package basics.multithreading;
 
 
 // this is one of the way to create thread is to extend Thread class ;
@@ -32,10 +32,12 @@ public class FirstThread {
         second.start();  // to start and run the created thread  of second ;
         System.out.println("hello 2");
 
+        // join may thorws an exception so we may need to throws an exception or try/catch them;
         first.join();   // join method for the first thread ;
 
         System.out.println("hello 3");
 
+        // join may thorws an exception so we may need to throws an exception or try/catch them;
         second.join();  // join method for the second thread ;
 
         System.out.println("hello 4 ");

@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.addition{
+	background-color: yellowgreen;
+	color:aliceblue ;
+	margin: 10px 50px 20px;
+}
+.table{
+	border : 3% red auto;
+}

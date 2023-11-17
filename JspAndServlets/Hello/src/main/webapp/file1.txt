@@ -1,0 +1,2 @@
+HI i'm a file 1 how can i help you?
+using <%@ include file="file1.txt" %> i include this file

@@ -1,2 +1,0 @@
-Hi hello world i'm in file 2 
-Using the <jsp:include page="file2.txt"></jsp:include> tag to import this page .
